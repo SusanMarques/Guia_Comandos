@@ -1,0 +1,13 @@
+*Abra o terminal e execute os seguintes comandos:
+
+sudo apt-get update 
+sudo apt-get install git
+
+*Verifique se a instalação ocorreu com sucesso usando 
+
+git --version.
+
+*Execute os seguintes comandos no terminal para configurar seu e-mail e nome de usuário que serão associados à sua conta GIT:
+
+git config --global user.name "João Silva" 
+git config --global user.email "exemplo@seuemail.com.br"

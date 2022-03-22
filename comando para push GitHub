@@ -1,0 +1,36 @@
+"Primeiro é nescessario baixar o Git e configurar, e ter uma conta no GuitHub."
+"veja no outro documento como instalar o git pelo terminal linux e windows"
+
+Após fazer uma conta no Github, instalar o Git no seu PC e configura-lo faça os seguintes passos:
+
+1-Abrir o aplicativo codium
+2-Abrir o terminal no modo Bash
+3-Entrar na pasta do diretório usando: cd para entrar e ls para listar as pastas 
+4-Para iniciar o seu diretório Dar o comando:
+
+$ git init 
+
+5- o próximo comando vai dizer quais arquivos não estão sendo incluídos o comando é:
+
+$ git status
+
+6- este comando vai incluir todos os arquivos:
+
+$ git add . 
+
+7- o próximo comando é dar um commit:
+
+$ git commit -m "Primeiro commit"
+
+8- ir no GitHub depois de ter logado e criar um repositório público
+9- copiar a linha que diz: git remote add origin https:// (até o .git) e colar na linha de comando
+10- depois o comando:
+
+$ git push -u origin main
+
+11- digitar o token, ou usuário e senha 
+
+12- pronto! os arquivos já estão no GitHub
+
+
+
